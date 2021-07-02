@@ -4,7 +4,7 @@
       <h3>冰星@LovesAsuna</h3>
       <p>如果在靠近一点，是否还会有感觉</p>
       <p class="c">
-        <a href="https://gate.beixibaobao.com/">Say hello to me @ hyosakura.com</a>
+        <a href="https://blog.hyosakura.com/">Say hello to me @ hyosakura.com</a>
       </p>
       <p class="c">
         <a href="https://beian.miit.gov.cn">粤ICP备2021041362号</a>
