@@ -26,7 +26,7 @@
           </div>
         </div>
         <ul class="skill clear">
-          <li v-for="skill in skills" :key="skill">
+          <li v-for="skill in skills" :key="skill.name">
             <p>{{ skill.name }}</p>
             <div class="progress">
               <div :style="'width:' + skill.progress + '%'">
@@ -65,11 +65,6 @@ export default {
           name: "PHP",
           desc: "世界上最?的语言",
           progress: "25"
-        },
-        {
-          name: "GoLang",
-          desc: "世界上最抽象的语言",
-          progress: "10"
         },
         {
           name: "GoLang",

@@ -26,6 +26,3 @@ export default {
   }
 }
 </script>
-
-<style src="../assets/flaghome.css"></style>
-<style src="../assets/nekotora.css"></style>

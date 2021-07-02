@@ -7,7 +7,7 @@
         们
       </h2>
       <div class="clear">
-        <a :href="neighbor.link" v-for="neighbor in neighbors" :key="neighbor" target="_blank">
+        <a :href="neighbor.link" v-for="neighbor in neighbors" :key="neighbor.name" target="_blank">
           <div class="item">
             <div class="avatar">
               <img :src="neighbor.img">
@@ -20,7 +20,7 @@
         </a>
       </div>
       <div class="clear" style="margin-top: 30px">
-        <a :href="neighbor.link" v-for="neighbor in neighbors_specious" :key="neighbor" target="_blank">
+        <a :href="neighbor.link" v-for="neighbor in neighbors_specious" :key="neighbor.name" target="_blank">
           <div class="item">
             <div class="avatar">
               <img :src="neighbor.img">

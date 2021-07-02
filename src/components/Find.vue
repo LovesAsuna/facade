@@ -6,7 +6,7 @@
         <span>地方</span>
       </h2>
       <div class="clear col-3">
-        <a :href="top.link" v-for="top in top3" :key="top" target="_blank">
+        <a :href="top.link" v-for="top in top3" :key="top.name" target="_blank">
           <div class="item">
             <div class="bg" style="background-color: #28A9E0"></div>
             <div class="inner">
@@ -16,7 +16,7 @@
         </a>
       </div>
       <div class="clear">
-        <a :href="relation.link" v-for="relation in relations" :key="relation" target="_blank">
+        <a :href="relation.link" v-for="relation in relations" :key="relation.name" target="_blank">
           <div class="item">
             <div class="bg" :style="'background-color:' + relation.background_color"></div>
             <div class="inner">

@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 @keyframes bg {
     0% {
         transform: rotate(0);
@@ -273,15 +264,6 @@ ul.skill li .progress div {
         width: 0
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 @keyframes loading-point {
