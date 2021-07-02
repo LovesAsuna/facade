@@ -26,64 +26,12 @@
           </div>
         </div>
         <ul class="skill clear">
-          <li>
-            <p>HTML5/CSS3</p>
+          <li v-for="skill in skills" :key="skill">
+            <p>{{ skill.name }}</p>
             <div class="progress">
-              <div style="width:45%">
+              <div :style="'width:' + skill.progress + '%'">
               </div>
-              <span>制作网站程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>JavaScript/Typescript</p>
-            <div class="progress">
-              <div style="width:15%"></div>
-              <span>使用现代轮子程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>PHP</p>
-            <div class="progress">
-              <div style="width:10%"></div>
-              <span>赞美最好的语言程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>数字设计</p>
-            <div class="progress">
-              <div style="width:1%"></div>
-              <span>让自己舒服程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>世界</p>
-            <div class="progress">
-              <div style="width:15%"></div>
-              <span>观测世界程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>搞事情</p>
-            <div class="progress">
-              <div style="width:99%">
-              </div>
-              <span>让事情发生程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>魔法</p>
-            <div class="progress">
-              <div style="width:25%">
-              </div>
-              <span>和普通人相同程度的能力</span>
-            </div>
-          </li>
-          <li>
-            <p>MoePower</p>
-            <div class="progress">
-              <div style="width:99%">
-              </div>
-              <span>成为萌二程度的能力</span>
+              <span v-html="skill.desc"></span>
             </div>
           </li>
         </ul>
@@ -94,7 +42,53 @@
 
 <script>
 export default {
-  name: "About"
+  name: "About",
+  data: function () {
+    return {
+      skills: [
+        {
+          name: "HTML5/CSS3",
+          desc: "<del style='color: white;'>&nbsp;抄</del>制作网站的能力",
+          progress: "27"
+        },
+        {
+          name: "Java/Kotlin",
+          desc: "世界上最好的语言",
+          progress: "70"
+        },
+        {
+          name: "Python",
+          desc: "世界上最方便的语言",
+          progress: "20"
+        },
+        {
+          name: "PHP",
+          desc: "世界上最?的语言",
+          progress: "25"
+        },
+        {
+          name: "GoLang",
+          desc: "世界上最抽象的语言",
+          progress: "10"
+        },
+        {
+          name: "GoLang",
+          desc: "世界上最抽象的语言",
+          progress: "10"
+        },
+        {
+          name: "搞事",
+          desc: "让事情发生程度的能力",
+          progress: "95"
+        },
+        {
+          name: "魔法",
+          desc: "和普通人相同程度的能力",
+          progress: "25"
+        }
+      ]
+    };
+  }
 }
 </script>
 

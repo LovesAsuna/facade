@@ -1,9 +1,9 @@
 <template>
   <nav>
-    <a href="https://beixibaobao.com/" class="active">Index</a>
+    <a href="https://hyosakura.com/" class="active">Index</a>
     <a class="clip"></a>
-    <a href="https://blog.beixibaobao.com/">Blog</a>
-    <a href="https://gate.beixibaobao.com/">Gate</a>
+    <a href="https://blog.hyosakura.com/">Blog</a>
+    <a href="https://gate.hyosakura.com/">Gate</a>
     <a href="#">Lab</a>
     <a class="clip"></a>
     <a href="#">LovesAsuna</a>
