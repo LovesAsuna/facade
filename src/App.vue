@@ -10,7 +10,7 @@
 import Navigation from './components/Navigation.vue'
 import Background from './components/Background.vue'
 import Main from './components/Main.vue'
-// import page from './assets/page.js'
+import page from './assets/page.js'
 
 export default {
   name: 'App',
@@ -41,8 +41,7 @@ export default {
     }
   },
   mounted: function () {
-    // page.show(this.msg)
-    document.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n")
+    page.show(this.msg)
   }
 }
 </script>
@@ -67,5 +66,3 @@ body, html {
 </style>
 <style src="./assets/flaghome.css"></style>
 <style src="./assets/nekotora.css"></style>
-
-
