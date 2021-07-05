@@ -20,7 +20,7 @@
           <div class="item">
             <div class="bg" :style="'background-color:' + relation.background_color"></div>
             <div class="inner">
-              <i class="icon-qq"></i>
+              <i :class="relation.icon"></i>
               <span>{{ relation.name }}</span>
             </div>
           </div>

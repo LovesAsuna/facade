@@ -72,7 +72,7 @@ export default {
           desc: "一个以服务优质为核心的IDC服务商"
         },
         {
-          link: "https://blog.beixibaobao.com/friends/",
+          link: "https://blog.hyosakura.com/friend.html",
           img: "https://blog.beixibaobao.com/img/favicon.ico",
           name: "申请友情链接",
           desc: "点击申请加入友情链接"
