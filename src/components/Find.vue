@@ -20,7 +20,7 @@
           <div class="item">
             <div class="bg" :style="'background-color:' + relation.background_color"></div>
             <div class="inner">
-              <i :class="relation.icon"></i>
+              <i :class="'iconfont ' + relation.icon"></i>
               <span>{{ relation.name }}</span>
             </div>
           </div>
@@ -89,26 +89,26 @@ export default {
         {
           link: "https://bangumi.tv/user/534020",
           background_color: "#F09199",
-          icon: "icon-bookmark",
+          icon: "icon-bangumi-icon",
           name: "Bangumi"
         },
         {
           link: "https://music.163.com/#/user/home?id=539493339",
           background_color: "#F12D35",
-          icon: "icon-netease_music",
+          icon: "icon-netease",
           name: "网易云音乐"
         },
         {
           link: "https://github.com/LovesAsuna",
           background_color: "#353535",
-          icon: "icon-github",
+          icon: "icon-github2",
           name: "Github"
         },
         {
-          link: "https://www.instagram.com/beixibaobao",
+          link: "https://steamcommunity.com/id/LovesAsuna/",
           background_color: "#b600ff",
-          icon: "icon-instagram",
-          name: "Instagram"
+          icon: "icon-steam",
+          name: "Steam"
         }
       ]
     };
