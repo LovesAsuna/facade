@@ -3,17 +3,17 @@
     <div class="container">
       <h2 class="chtitle">
         Who is
-        <span>Hikarn</span>
+        <span>LovesAsuna</span>
         ？
       </h2>
       <div class="clear">
         <div class="introduct">
-          <img class="avatar" src="https://cdn.jsdelivr.net/gh/LovesAsuna/blogcdn@stable/gravater.png">
+          <img class="avatar" alt="头像" src="https://ghproxy.com/https://raw.githubusercontent.com/LovesAsuna/BlogCDN/main/gallary/gravater.5rfx4964lf40.png">
           <p>坚硬的代替了那些柔软的，清晰的取代了那些模糊的。那些滑溜溜和黏糊糊的东西，带你来到了世界的角落。</p>
           <p style="padding-bottom:1em">How lucky to meet you!</p>
           <p>
-            你好，这里是LovesAsuna
-            <sup>Hikarn</sup>
+            你好，这里是梦曦·花已落
+            <sup>这里是LovesAsuna</sup>
             ，20岁，是学生，对有趣的世界和可能有趣的你感到好奇，热爱It和ACG文化，正在尝试努力学习中。
           </p>
           <p>希望能与你在比特之海的繁星之下相见！</p>
@@ -54,7 +54,7 @@ export default {
         {
           name: "Java/Kotlin",
           desc: "世界上最好的语言",
-          progress: "70"
+          progress: "80"
         },
         {
           name: "Python",
@@ -68,8 +68,8 @@ export default {
         },
         {
           name: "GoLang",
-          desc: "世界上最抽象的语言",
-          progress: "10"
+          desc: "世界上次好的语言",
+          progress: "65"
         },
         {
           name: "搞事",
