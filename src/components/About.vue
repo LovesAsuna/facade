@@ -13,7 +13,7 @@
           <p style="padding-bottom:1em">How lucky to meet you!</p>
           <p>
             你好，这里是梦曦·花已落
-            <sup>这里是LovesAsuna</sup>
+            <sup>LovesAsuna</sup>
             ，20岁，是学生，对有趣的世界和可能有趣的你感到好奇，热爱It和ACG文化，正在尝试努力学习中。
           </p>
           <p>希望能与你在比特之海的繁星之下相见！</p>
