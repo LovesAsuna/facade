@@ -1,0 +1,465 @@
+@keyframes bg {
+    0% {
+        transform: rotate(0);
+        border-radius: 0
+    }
+    50% {
+        transform: rotate(180deg);
+        border-radius: 0
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0
+    }
+}
+
+@-webkit-keyframes bg {
+    0% {
+        transform: rotate(0);
+        border-radius: 0
+    }
+    50% {
+        transform: rotate(180deg);
+        border-radius: 0
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0
+    }
+}
+
+@-ms-keyframes bg {
+    0% {
+        transform: rotate(0);
+        border-radius: 0
+    }
+    50% {
+        transform: rotate(180deg);
+        border-radius: 0
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0
+    }
+}
+
+@-moz-keyframes bg {
+    0% {
+        transform: rotate(0);
+        border-radius: 0
+    }
+    50% {
+        transform: rotate(180deg);
+        border-radius: 0
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0
+    }
+}
+
+
+
+@keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-ms-keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-moz-keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px 0
+}
+
+.intro {
+    color: #fff;
+    height: 100vh;
+    padding: 0
+}
+
+.intro .container {
+    animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
+    -webkit-animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
+    -ms-animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
+    -moz-animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1)
+}
+
+.hello {
+    position: absolute;
+    bottom: 20%;
+    left: 0
+}
+
+.hello h1, .hello h2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    letter-spacing: .2em
+}
+
+.hello h1 {
+    font-size: 42px;
+    letter-spacing: .5em
+}
+
+.hello h2 {
+    padding-top: .6em
+}
+
+.hello .circle {
+    float: left;
+    margin-right: 10px;
+    letter-spacing: 0
+}
+
+.hello .circle span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 5px
+}
+
+.hello .circle span:nth-child(1) {
+    background-color: #ff493f
+}
+
+.hello .circle span:nth-child(2) {
+    background-color: #f7c900
+}
+
+.hello .circle span:nth-child(3) {
+    background-color: #00ff37
+}
+
+.about .introduct {
+    line-height: 2em
+}
+
+.about .introduct img.avatar {
+    float: right;
+    width: 140px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 100%
+}
+
+.about ul.skill {
+    margin-top: 50px
+}
+
+.about ul.skill li {
+    list-style: none;
+    padding: 10px 0;
+    width: 45%;
+    float: left;
+    margin-right: 5%
+}
+
+.about ul.skill li p {
+    display: inline-block;
+    width: 26%;
+    margin-right: 3%;
+    font-size: 12px
+}
+
+.about ul.skill li .progress {
+    display: inline-block;
+    width: 70%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, .2);
+    vertical-align: middle
+}
+
+.about ul.skill li .progress span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .4);
+    opacity: 0;
+    position: relative;
+    top: -5px;
+    letter-spacing: .5em;
+    transition: .3s all
+}
+
+.about ul.skill li:hover .progress span {
+    opacity: 1;
+    top: 0
+}
+
+.about ul.skill li .progress div {
+    background-color: #fff;
+    height: 3px;
+    position: relative
+}
+
+ul.skill li .progress div {
+    animation: progressin 7s;
+    -webkit-animation: progressin 7s;
+    -ms-animation: progressin 7s;
+    -moz-animation: progressin 7s
+}
+
+@keyframes progressin {
+    from {
+        width: 0
+    }
+}
+
+@-webkit-keyframes progressin {
+    from {
+        width: 0
+    }
+}
+
+@-ms-keyframes progressin {
+    from {
+        width: 0
+    }
+}
+
+@-moz-keyframes progressin {
+    from {
+        width: 0
+    }
+}
+
+
+@keyframes loading-point {
+    0% {
+        opacity: .8
+    }
+    50% {
+        opacity: .25
+    }
+    100% {
+        opacity: 8
+    }
+}
+
+@keyframes error {
+    0% {
+        transform: translateX(0)
+    }
+    25% {
+        transform: translateX(-2px)
+    }
+    50% {
+        transform: translateX(0)
+    }
+    75% {
+        transform: translateX(2px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes index-link-active {
+    0% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(0)
+    }
+    16% {
+        transform: perspective(1600px) rotateX(10deg) rotateY(5deg) translateZ(32px)
+    }
+    100% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(65px)
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 70%
+    }
+
+    nav a {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body, html {
+        min-width: 0
+    }
+
+    .container {
+        width: auto;
+        margin: 0 5%
+    }
+
+    div.el span {
+        display: block;
+        width: 60%;
+        left: 0;
+        top: 75px;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: -40%
+    }
+
+    nav {
+        padding: 15px 5%;
+        overflow: auto;
+        font-size: 13px;
+        left: 0;
+        top: inherit;
+        bottom: 0;
+        transform: rotate(0) translate3d(0, 0, 0);
+        transform-origin: 0 100%;
+        white-space: nowrap;
+        width: 90%;
+        background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8))
+    }
+
+    .ch {
+        padding: 40px 0
+    }
+
+    .hello {
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        bottom: 50%
+    }
+
+    .hello .circle {
+        float: none;
+        margin-right: 0
+    }
+
+    .hello h2 {
+        padding-top: 0
+    }
+
+    .hello h1, .hello h2 {
+        font-weight: 400;
+        font-size: 14px
+    }
+
+    .hello .circle {
+        padding: 20px
+    }
+
+    .hello .circle span {
+        margin-right: 0;
+        margin: 0 5px;
+        width: 10px;
+        height: 10px
+    }
+
+    .hello h1 {
+        font-size: 26px
+    }
+
+    .about .introduct img.avatar {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100px
+    }
+
+    .about .introduct, .about .skill {
+        float: none;
+        width: auto
+    }
+
+    .about .skill {
+        padding-top: 40px
+    }
+
+    .about ul.skill li {
+        width: 100%
+    }
+
+    .find .links .item, .gate .links .item {
+        width: 46%;
+        height: auto;
+        padding: 5px 0;
+        margin: 10px 2%
+    }
+
+    .find .links .item {
+        height: 60px;
+        line-height: 60px;
+        font-size: 13px
+    }
+
+    .gate .links .item .avatar {
+        height: 40px;
+        line-height: 40px;
+        width: 40px
+    }
+
+    .gate .links .item .avatar img {
+        height: 40px;
+        max-width: 40px
+    }
+
+    .gate .links .item .inner {
+        padding: 0
+    }
+
+    .gate .links .item .inner h5 {
+        font-size: 15px
+    }
+
+    .gate .links .item .inner h5, .gate .links .item .inner p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden
+    }
+
+    .footer {
+        padding-bottom: 100px
+    }
+
+    .footer h3 {
+        letter-spacing: .2em
+    }
+
+    .footer p {
+        letter-spacing: .2em
+    }
+}
