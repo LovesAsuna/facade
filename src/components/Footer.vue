@@ -6,9 +6,6 @@
       <p class="c">
         <a href="https://blog.hyosakura.com/">Say hello to me @ hyosakura.com</a>
       </p>
-      <p class="c">
-        <a href="https://beian.miit.gov.cn">粤ICP备2021041362号</a>
-      </p>
     </div>
   </div>
 </template>

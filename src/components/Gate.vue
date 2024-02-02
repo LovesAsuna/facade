@@ -47,7 +47,7 @@ export default {
       neighbors_specious: [
         {
           link: "https://blog.hyosakura.com/friend.html",
-          img: "https://ghproxy.com/https://raw.githubusercontent.com/LovesAsuna/BlogCDN/main/gallary/gravater.5rfx4964lf40.png",
+          img: "https://blog.hyosakura.com/avatar",
           name: "申请友情链接",
           desc: "点击申请加入友情链接"
         }
