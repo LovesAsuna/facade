@@ -46,7 +46,7 @@ export default {
       neighbors: [],
       neighbors_specious: [
         {
-          link: "https://blog.hyosakura.com/friend.html",
+          link: "https://blog.hyosakura.com/friends",
           img: "https://blog.hyosakura.com/avatar",
           name: "申请友情链接",
           desc: "点击申请加入友情链接"

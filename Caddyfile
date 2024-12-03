@@ -1,0 +1,16 @@
+{
+    auto_https disable_certs
+}
+
+http://hyosakura.com {
+    redir * https://www.hyosakura.com 301
+}
+
+http://www.hyosakura.com {
+    encode gzip
+    root * /var/www/html/main
+    file_server
+    log {
+        output file /var/log/caddy/caddy.log
+    }
+}
