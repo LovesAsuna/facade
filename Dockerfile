@@ -2,7 +2,7 @@ FROM debian
 
 WORKDIR /var/www/html
 
-COPY src/ Caddyfile justfile ./
+COPY ./ ./
 
 RUN apt-get update \
   && apt-get install -y wget \
