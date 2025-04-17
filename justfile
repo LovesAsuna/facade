@@ -13,4 +13,5 @@ build: pnpm
 
 pnpm:
 	wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
+	ln -s /root/.local/share/pnpm/pnpm /usr/local/bin/pnpm
 	
