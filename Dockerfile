@@ -1,0 +1,12 @@
+FROM debian
+
+WORKDIR /var/www/html
+
+COPY src/ Caddyfile justfile ./
+
+RUN apt-get update \
+  && apt-get install -y wget \
+  curl
+
+RUN curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/local/bin
+CMD ["just"]
