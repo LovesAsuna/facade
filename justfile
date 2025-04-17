@@ -9,7 +9,8 @@ www: build
 	mv dist /var/www/html/main
 
 build: pnpm
-	/root/.local/share/pnpm/pnpm build
+	pnpm install
+	pnpm build
 
 pnpm:
 	wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
