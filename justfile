@@ -6,7 +6,7 @@ caddy: www
 	wget -q -O /usr/local/bin/caddy "https://caddyserver.com/api/download?os=linux&arch=amd64" && chmod +x /usr/local/bin/caddy
 
 www: build
-	mv dist /var/www/html/main
+	mv build /var/www/html/main
 
 build: pnpm
 	pnpm install
