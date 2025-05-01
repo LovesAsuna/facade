@@ -3,16 +3,19 @@ default: caddy
 
 caddy: www
 	mkdir -p /var/log/caddy
-	wget -q -O /usr/local/bin/caddy "https://caddyserver.com/api/download?os=linux&arch=amd64" && chmod +x /usr/local/bin/caddy
+	curl -o /usr/local/bin/caddy "https://caddyserver.com/api/download?os=linux&arch=amd64" && chmod +x /usr/local/bin/caddy
 
 www: build
-	mv dist /var/www/html/main
+	mv build /var/www/html/main
 
-build: pnpm
-	pnpm install
-	pnpm build
+build: bun
+    #!/bin/env bash
+    source ~/.bashrc
+    bun install
+    bun run build
 
-pnpm:
-	wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
-	ln -s /root/.local/share/pnpm/pnpm /usr/local/bin/pnpm
+bun:
+    #!/bin/env bash
+    curl -fsSL https://bun.sh/install | bash
+    source ~/.bashrc
 	
